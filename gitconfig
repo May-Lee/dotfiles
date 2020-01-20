@@ -3,7 +3,7 @@
   diff = auto
   interactive = auto
   status = auto
-  ui = auto
+	ui = auto
 
 [color "branch"]
   current = green
@@ -14,7 +14,7 @@
 	editor = subl -n -w  >/dev/null 2>&1
 
 [alias]
-  co = checkout
+	co = checkout
   st = status -sb
   br = branch
   ci = commit
@@ -37,6 +37,7 @@
 
   # Removes a file from the index
   unstage = reset HEAD --
+	gst = status
 
 [help]
   autocorrect = 1
